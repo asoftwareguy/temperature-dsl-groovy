@@ -1,6 +1,6 @@
 package com.asoftwareguy.temperature
 
-use(TemperatureConversion) {
+use(Temperature) {
 	assert  "100".fahrenheit.toString() == 'The current temperature is 100 degrees F.'
 	println "100".fahrenheit
 	

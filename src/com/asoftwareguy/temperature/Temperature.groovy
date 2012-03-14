@@ -1,6 +1,6 @@
 package com.asoftwareguy.temperature
 
-class TemperatureConversion {
+class Temperature {
 
 	static AncientTemperature getFahrenheit(String fahrenheit) {
 		new AncientTemperature(fahrenheit as int)
