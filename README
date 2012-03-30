@@ -1,0 +1,1 @@
+This project gives an example of how to write a temperature conversion application utilizing Groovy Categories to create a DSL against what could represent an existing Java Temperature class.
