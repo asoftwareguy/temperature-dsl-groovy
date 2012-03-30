@@ -33,4 +33,10 @@ use(Temperature) {
 	
 	assert (100.fahrenheit - 0.celsius).toString() == 'The current temperature is 68 degrees F.'
 	println 100.fahrenheit - 0.celsius
+	
+	assert 	273.kelvin.toString() == 'The current temperature is 32 degrees F.'
+	println 273.kelvin
+	
+	assert 	212.kelvin.toString() == 'The current temperature is -78 degrees F.'
+	println 212.kelvin
 }
