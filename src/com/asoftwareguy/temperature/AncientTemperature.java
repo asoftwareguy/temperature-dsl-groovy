@@ -16,6 +16,6 @@ public final class AncientTemperature {
 
 	@Override
 	public String toString() {
-		return new StringBuilder().append("The current temperature is " + temp + " degrees F.").toString();
+		return new StringBuilder().append("The current temperature is " + temp + " degrees Farenheit.").toString();
 	}
 }
