@@ -7,5 +7,5 @@ to create a DSL against what could represent an existing Java Temperature class.
 
 ## To Do
 
-- switch to Gradle build
-- move tests out of main sources
+- ~~switch to Gradle build~~
+- ~~move tests out of main sources~~

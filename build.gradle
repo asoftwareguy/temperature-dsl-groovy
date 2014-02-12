@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+ext {
+    groovyVersion = '2.0.6'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-lang3:3.1'
+    groovy  "org.codehaus.groovy:groovy-all:${ext.groovyVersion}"
+    testCompile "junit:junit:4.11"
+}
